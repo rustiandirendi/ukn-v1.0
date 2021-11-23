@@ -1,0 +1,1271 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/*!
+ * Undangan kami nika v.1.0 
+ *
+ * Licensed under Undangan kami Nikah
+ */
+/*--------------------------------------------------------------
+# Bride 1
+--------------------------------------------------------------*/
+.bride-1{
+	background-color: var(--bg-second-color);
+	text-align: center;
+}
+
+.bride-1 img{
+	width: 143px;
+}
+
+.bride-1 h1{
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+	margin: 0 0 16px 0;
+}
+
+.bride-1 p{
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+	margin: 0;
+}
+/*--------------------------------------------------------------
+# Bride 2
+--------------------------------------------------------------*/
+.bride-2{
+	background-color: var(--bg-second-color);
+}
+
+.bride-2 .card{
+	background-color: var(--bg-second-color);
+	border-color: var(--font-third-color);
+	border-radius: 20px 20px 20px 20px;
+}
+
+.bride-2 .card .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.bride-2 .card .card-body img{
+	width: 143px;
+}
+
+.bride-2 .card .card-body h1{
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+	margin: 0 0 16px 0;
+}
+
+.bride-2 .card .card-body p{
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+	margin: 0;
+}
+/*--------------------------------------------------------------
+# Bride 3
+--------------------------------------------------------------*/
+.bride-3{
+	background-color: var(--bg-second-color);
+}
+
+.bride-3 img{
+	width: 100%;
+}
+
+.bride-3 h1{
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+	margin: 0 0 16px 0;
+}
+
+.bride-3 p{
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+	margin: 0;
+}
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+.btn-first-wedding {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-color);
+	border-color: var(--btn-first-color);
+}
+.btn-first-wedding:hover {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-hover-color);
+	border-color: var(--btn-first-hover-color);
+}
+.btn-check:focus + .btn-first-wedding, .btn-first-wedding:focus {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-hover-color);
+	border-color: var(--btn-first-hover-color);
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+.btn-check:checked + .btn-first-wedding, .btn-check:active + .btn-first-wedding, .btn-first-wedding:active, .btn-first-wedding.active, .show > .btn-first-wedding.dropdown-toggle {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-hover-color);
+	border-color: var(--btn-first-hover-color);
+}
+.btn-check:checked + .btn-first-wedding:focus, .btn-check:active + .btn-first-wedding:focus, .btn-first-wedding:active:focus, .btn-first-wedding.active:focus, .show > .btn-first-wedding.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+.btn-first-wedding:disabled, .btn-first-wedding.disabled {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-color);
+	border-color: var(--btn-first-color);
+}
+
+.btn-outline-first-wedding {
+	color: var(--btn-first-color);
+	border-color: var(--btn-first-color);
+}
+.btn-outline-first-wedding:hover {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-color);
+	border-color: var(--btn-first-color);
+}
+.btn-check:focus + .btn-outline-first-wedding, .btn-outline-first-wedding:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+.btn-check:checked + .btn-outline-first-wedding, .btn-check:active + .btn-outline-first-wedding, .btn-outline-first-wedding:active, .btn-outline-first-wedding.active, .btn-outline-first-wedding.dropdown-toggle.show {
+	color: var(--btn-first-color-font);
+	background-color: var(--btn-first-color);
+	border-color: var(--btn-first-color);
+}
+.btn-check:checked + .btn-outline-first-wedding:focus, .btn-check:active + .btn-outline-first-wedding:focus, .btn-outline-first-wedding:active:focus, .btn-outline-first-wedding.active:focus, .btn-outline-first-wedding.dropdown-toggle.show:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+.btn-outline-first-wedding:disabled, .btn-outline-first-wedding.disabled {
+	color: var(--btn-first-color);
+	background-color: transparent;
+}
+.btn-second-wedding {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-color);
+	border-color: var(--btn-second-color);
+}
+.btn-second-wedding:hover {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-hover-color);
+	border-color: var(--btn-second-hover-color);
+}
+.btn-check:focus + .btn-second-wedding, .btn-second-wedding:focus {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-hover-color);
+	border-color: var(--btn-second-hover-color);
+	box-shadow: 0 0 0 0.25rem var(--btn-second-color-rgb);
+}
+.btn-check:checked + .btn-second-wedding, .btn-check:active + .btn-second-wedding, .btn-second-wedding:active, .btn-second-wedding.active, .show > .btn-second-wedding.dropdown-toggle {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-hover-color);
+	border-color: var(--btn-second-hover-color);
+}
+.btn-check:checked + .btn-second-wedding:focus, .btn-check:active + .btn-second-wedding:focus, .btn-second-wedding:active:focus, .btn-second-wedding.active:focus, .show > .btn-second-wedding.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-second-color-rgb);
+}
+.btn-second-wedding:disabled, .btn-second-wedding.disabled {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-color);
+	border-color: var(--btn-second-color);
+}
+
+.btn-outline-second-wedding {
+	color: var(--btn-second-color);
+	border-color: var(--btn-second-color);
+}
+.btn-outline-second-wedding:hover {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-color);
+	border-color: var(--btn-second-color);
+}
+.btn-check:focus + .btn-outline-second-wedding, .btn-outline-second-wedding:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-second-color-rgb);
+}
+.btn-check:checked + .btn-outline-second-wedding, .btn-check:active + .btn-outline-second-wedding, .btn-outline-second-wedding:active, .btn-outline-second-wedding.active, .btn-outline-second-wedding.dropdown-toggle.show {
+	color: var(--btn-second-color-font);
+	background-color: var(--btn-second-color);
+	border-color: var(--btn-second-color);
+}
+.btn-check:checked + .btn-outline-second-wedding:focus, .btn-check:active + .btn-outline-second-wedding:focus, .btn-outline-second-wedding:active:focus, .btn-outline-second-wedding.active:focus, .btn-outline-second-wedding.dropdown-toggle.show:focus {
+	box-shadow: 0 0 0 0.25rem var(--btn-second-color-rgb);
+}
+.btn-outline-second-wedding:disabled, .btn-outline-second-wedding.disabled {
+	color: var(--btn-second-color);
+	background-color: transparent;
+}
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+.form-control{
+	font-family: var(--font-serif-family);
+}
+
+.form-control:focus {
+	color: var(--font-second-color);
+	border-color: var(--btn-first-color);
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+
+.form-select {
+	font-family: var(--font-serif-family);
+}
+
+.form-select:focus {
+	color: var(--font-second-color);
+	border-color: var(--btn-first-color);
+	box-shadow: 0 0 0 0.25rem var(--btn-first-color-rgb);
+}
+/*--------------------------------------------------------------
+# Date 1
+--------------------------------------------------------------*/
+.date-1{
+	background-color: var(--bg-first-color);
+}
+
+.date-1 .img-date{
+	background: url(../img/time-01.jpg);
+	background-size: cover;
+	background-position: center; 
+	width: 100%;
+	height: 200px;
+	margin: auto;
+}
+
+.date-1 .date-detail{
+	background-color: var(--bg-second-color);
+}
+
+.date-1 .date-detail .card-body{
+	padding:16px;
+	text-align: center;
+}
+
+.date-1 .date-detail .card-body .title-date{
+	margin: 0 0 16px 0;
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+}
+
+.date-1 .date-detail .card-body .date-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-1 .date-detail .card-body .time-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-1 .date-detail .card-body .venue{
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-1 .date-detail .card-body .venue-detail{
+	margin: 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.ctd-img-1{
+	width: 100%;
+	height: 200px;
+	margin-top: -1px;
+}
+
+.ctd-1{
+	margin-top: -120px;
+}
+
+.ctd-1 .card{
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 20px 20px 20px 20px;
+}
+
+.ctd-1 .card .card-body{
+	padding: 32px;
+}
+
+.ctd-1 .card .card-body p{
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.ctd-1 .card .card-body table{
+	margin: auto;
+}
+
+.ctd-1 .card .card-body .tg-qj3h{
+	font-size:36px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+	padding: 8px 8px 0 8px;
+}
+
+.ctd-1 .card .card-body .tg-6nwz{
+	font-size:14px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.ctd-1 .card .card-body .tg-baqh{
+	text-align:center;
+	vertical-align:center;
+}
+/*--------------------------------------------------------------
+# Date 2
+--------------------------------------------------------------*/
+.date-2{
+	background-color: var(--bg-first-color);
+}
+
+.date-2 .wedding-dete-1{
+	border-radius: 20px 20px 20px 20px;
+}
+
+.date-2 .wedding-dete-1 .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.date-2 .wedding-dete-2{
+	border-radius: 20px 20px 20px 20px;
+}
+
+.date-2 .wedding-dete-2 .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.date-2 .card-body .title-date{
+	margin: 0 0 16px 0;
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+}
+
+.date-2 .card-body .date-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-2 .card-body .time-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-2 .card-body .venue{
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-2 .card-body .venue-detail{
+	margin: 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+.ctd-2{
+	padding: 48px 16px 48px 16px;
+	margin-top: -1px;
+}
+
+.ctd-2 p{
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+}
+
+.ctd-2 table{
+	margin: auto;
+}
+
+.ctd-2 .tg-qj3h{
+	font-size:36px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+	padding: 8px 8px 0 8px;
+}
+
+.ctd-2 .tg-6nwz{
+	font-size:14px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+}
+
+.ctd-2 .tg-baqh{
+	text-align:center;
+	vertical-align:center;
+}
+/*--------------------------------------------------------------
+# Date 3
+--------------------------------------------------------------*/
+.date-3{
+	background-color: var(--bg-first-color);
+}
+
+.date-3 .wedding-dete-1{
+	position:relative;
+	background-color: var(--bg-second-color);
+	border-radius: 50px 50px 0 0;
+	border-color: var(--bg-second-color);
+}
+
+.date-3 .wedding-dete-1 .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.date-3 .date-img-1{
+	height: 200px;
+	width: 100%;
+	border-radius: 0 0 50px 50px;
+	margin-top: -2px;
+}
+
+.date-3 .wedding-dete-2{
+	position:relative;
+	background-color: var(--bg-second-color);
+	border-radius: 50px 50px 0 0;
+	border-color: var(--bg-second-color);
+}
+
+.date-3 .wedding-dete-2 .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.date-3 .date-img-2{
+	height: 200px;
+	width: 100%;
+	border-radius: 0 0 50px 50px;
+	margin-top: -2px;
+}
+
+.date-3 .card-body .title-date{
+	margin: 0 0 16px 0;
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+}
+
+.date-3 .card-body .date-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-3 .card-body .time-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-3 .card-body .venue{
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-3 .card-body .venue-detail{
+	margin: 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.ctd-3{
+	padding-bottom: 16px;
+}
+
+.ctd-3 .card{
+	height: 200px;
+	border-radius: 0 0 50px 50px;
+	margin-top: -5px;
+	border:0px;
+}
+
+.ctd-3 .card .card-body p{
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+}
+
+.ctd-3 .card .card-body table{
+	margin: auto;
+}
+
+.ctd-3 .card .card-body .tg-qj3h{
+	font-size:36px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+	padding: 8px 8px 0 8px;
+}
+
+.ctd-3 .card .card-body .tg-6nwz{
+	font-size:14px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-first-color);
+}
+
+.ctd-3 .card .card-body .tg-baqh{
+	text-align:center;
+	vertical-align:center;
+}
+/*--------------------------------------------------------------
+# Date 4
+--------------------------------------------------------------*/
+.date-4{
+	background-color: var(--bg-first-color);
+}
+
+.date-4 .card .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.date-4 .card .card-body .ctd-p{
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-4 .card .card-body table{
+	margin: auto;
+}
+
+.date-4 .card .card-body .tg-qj3h{
+	font-size:36px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+	padding: 8px 8px 0 8px;
+}
+
+.date-4 .card .card-body .tg-6nwz{
+	font-size:14px;
+	text-align:center;
+	vertical-align:center;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-4 .card .card-body .tg-baqh{
+	text-align:center;
+	vertical-align:center;
+}
+
+.date-4 .card .card-body .title-date{
+	margin: 0 0 16px 0;
+	font-size: 36px;
+	font-family: var(--font-handwriting-family);
+	color: var(--font-third-color);
+}
+
+.date-4 .card .card-body .date-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-4 .card .card-body .time-wedding{
+	margin: 0 0 16px 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-4 .card .card-body .venue{
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.date-4 .card .card-body .venue-detail{
+	margin: 0;
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+/*--------------------------------------------------------------
+# Story 1
+--------------------------------------------------------------*/
+.story-1{
+	background-color: var(--bg-first-color);
+}
+
+.story-1 .img-story-1{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	border-radius: 20px 20px 0 0;
+}
+
+.story-1 .story-conten-1{
+	border-radius: 20px 20px 0 0;
+	text-align: center;
+}
+
+.story-1 .story-conten-1 .card-body{
+	padding: 16px;
+}
+
+.story-1 .story-conten-1 .card-body h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	margin-bottom:16px;
+	color: var(--font-third-color);
+}
+
+.story-1 .story-conten-1 .card-body p{
+	font-family: var(--font-serif-family);
+	font-size: 18px;
+	margin:0;
+	color: var(--font-second-color);
+}
+
+.story-1 .img-story-2{
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	border-radius: 0 0 20px 20px;
+}
+
+.story-1 .story-conten-2{
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.story-1 .story-conten-2 .card-body{
+	padding: 16px;
+}
+
+.story-1 .story-conten-2 .card-body h1{
+	font-family:  var(--font-handwriting-family);
+	font-size: 36px;
+	margin-bottom:16px;
+	color: var(--font-third-color);
+}
+
+.story-1 .story-conten-2 .card-body p{
+	font-family: var(--font-serif-family);
+	font-size: 18px;
+	margin:0;
+	color: var(--font-second-color);
+}
+/*--------------------------------------------------------------
+# Story 2
+--------------------------------------------------------------*/
+.story-2{
+	background-color: var(--bg-second-color);
+}
+
+.story-2 .container{
+	text-align:center;
+}
+
+.story-2 .container h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.story-2 .container p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.story-2 .storyphoto1{
+	height: 250px
+}
+
+.story-2 .storyphoto2{
+	height: 250px
+}
+
+.story-2 .waves{
+	position:relative;
+	width: 100%;
+	height:40px;
+	margin-bottom:-8px; /*Fix for safari gap*/
+	min-height:30px;
+	max-height:150px;
+}
+.story-2 .waves2{
+	position:relative;
+	width: 100%;
+	height:40px;
+	margin-top:-1px; /*Fix for safari gap*/
+	min-height:30px;
+	max-height:150px;
+}
+/*--------------------------------------------------------------
+# Story 3
+--------------------------------------------------------------*/
+.story-3{
+	background-color: var(--bg-first-color);
+}
+
+.story-3 .img-story-1{
+	position:relative;
+	width: 85%;
+	height: 200px;
+	margin: auto;
+	margin-top: -65px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.story-3 .story-conten-1{
+	border-radius: 70px 70px 70px 0;
+	text-align: center;
+}
+
+.story-3 .story-conten-1 .card-body{
+	padding: 16px;
+	padding-bottom: 94px;
+}
+
+.story-3 .story-conten-1 .card-body h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	margin-bottom:16px;
+	color: var(--font-third-color);
+}
+
+.story-3 .story-conten-1 .card-body p{
+	font-family: var(--font-serif-family);
+	font-size: 18px;
+	margin:0;
+	color: var(--font-second-color);
+}
+
+.story-3 .img-story-2{
+	position:relative;
+	width: 85%;
+	height: 200px;
+	margin: auto;
+	margin-top: -65px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.story-3 .story-conten-2{
+	border-radius: 70px 70px 0 70px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.story-3 .story-conten-2 .card-body{
+	padding: 16px;
+	padding-bottom: 94px;
+}
+
+.story-3 .story-conten-2 .card-body h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	margin-bottom:16px;
+	color: var(--font-third-color);
+}
+
+.story-3 .story-conten-2 .card-body p{
+	font-family: var(--font-serif-family);
+	font-size: 18px;
+	margin:0;
+	color: var(--font-second-color);
+}
+/*--------------------------------------------------------------
+# Story 4
+--------------------------------------------------------------*/
+.story-4{
+	background-color: var(--bg-second-color);
+}
+
+.story-4 h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	margin-bottom:16px; 
+	text-align: center;
+	color: var(--font-third-color);
+}
+
+.story-4 p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	margin:0;
+	color: var(--font-second-color);
+}
+
+.amplop{
+	background-color: var(--bg-second-color);
+	text-align: center;
+}
+
+.amplop h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.amplop p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.amplop img{
+	width: 100px;
+}
+
+.amplop hr{
+	width: 200px;
+	margin:auto;
+	margin-top: 8px;
+}
+
+.covid{
+	background-color: var(--bg-second-color);
+	text-align: center;
+}
+
+.covid .fill-color{
+	fill: var(--font-third-color);
+}
+
+.covid .stroke-color{
+	stroke: var(--font-third-color);
+}
+
+.covid p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.covid h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+/*--------------------------------------------------------------
+# Wishes
+--------------------------------------------------------------*/
+.wishes{
+	background-color: var(--bg-first-color);
+}
+
+.wishes .card{
+	border-radius: 20px 20px 20px 20px;
+}
+
+.wishes .card .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.wishes .card .card-body p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.wishes .card .card-body h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.wishes .wishes-scroll{
+	margin: 16px 8px 16px 8px;
+	overflow:scroll;
+	overflow-x:hidden;
+	max-height: 500px;
+}
+
+.wishes .wishes-scroll .cmt-title{
+	margin-bottom: 0;
+	font-family: var(--font-serif-family);
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--font-first-color);
+}
+
+.wishes .wishes-scroll .cmt-detail{
+	margin-bottom: 16px;
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-first-color);
+}
+.wishes .thk-wishes{
+	text-align: center;
+	margin-top: 16px;
+}
+
+.wishes .thk-wishes p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-first-color);
+	margin: 0;
+}
+
+.wishes .thk-wishes h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-first-color);
+	margin: 0;
+}
+/*--------------------------------------------------------------
+# RSVP
+--------------------------------------------------------------*/
+.rsvp{
+	background-color: var(--bg-second-color);
+	text-align: center;
+}
+
+.rsvp p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.rsvp h1{
+	font-family: var(--font-serif-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.wedding-img-code{
+	background-color: var(--bg-second-color);
+}
+
+.wedding-img-code .img-code{
+	border-color: var(--font-third-color);
+	max-width: 500px;
+	margin: auto;
+}
+
+.wedding-img-code .img-code .card-body{
+	padding: 16px;
+	text-align: center;
+}
+
+.wedding-img-code .img-code .card-body .wedding{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin: 0;
+}
+
+.wedding-img-code .img-code .card-body .bride-name{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.wedding-img-code .img-code .card-body .date-wedding{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin: 0;
+}
+
+.wedding-img-code .img-code .card-body .time-wedding{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+}
+
+.wedding-img-code .img-code .card-body .venue{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--font-second-color);
+	margin: 0;
+}
+
+.wedding-img-code .img-code .card-body .venue-detail{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	max-width: 200px;
+	margin: auto;
+}
+
+.wedding-img-code .img-code .card-body .kpd-guest{
+	font-family: var(--font-serif-family);
+	font-size: 10px;
+	color: var(--font-second-color);
+	margin: 16px 0 0 0;
+}
+
+.wedding-img-code .img-code .card-body .name-guest{
+	font-family: var(--font-serif-family);
+	font-size: 16px;
+	color: var(--font-second-color);
+	margin: 0;
+}
+
+.wedding-img-code .img-code .card-body .address-guet{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin: 0 0 16px 0;
+}
+
+.wedding-img-code .img-code .card-body .img-qrcode{
+	border-style: double;
+	border-color: var(--font-third-color);
+	width: 100%;
+	max-width: 300px;
+	margin:auto; 
+}
+
+.wedding-img-code .img-code .card-body .img-qrcode img{
+	width: 100%;
+	margin:auto;
+}
+
+.wedding-img-code .img-code .card-body .p-wedding{
+	font-family: var(--font-serif-family);
+	font-size: 10px;
+	color: var(--font-second-color);
+}
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery{
+	background-color: var(--bg-second-color);
+}
+
+.gallery h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+	text-align: center;
+}
+
+.gallery .gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+} 
+.gallery .gal img{ 
+	width: 100%; 
+	padding: 7px 0;
+}
+
+@media (max-width: 500px) {
+	 .gallery .gal {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+}
+/*--------------------------------------------------------------
+# Quotes
+--------------------------------------------------------------*/
+.quotes{
+	background-color: var(--bg-first-color);
+}
+
+.quotes p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-first-color);
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+	position:relative;
+}
+
+.header .inner-header {
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header .inner-header .box-wedding{
+	width: 100%;
+	margin: 0 0 16px 0;
+}
+
+.header .inner-header p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin: 16px 0 16px 0;
+}
+
+.header .inner-header h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+	margin:0;
+}
+
+.header .flex {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+.modal-body .wedding-modal-bride{
+	text-align: center;
+}
+
+.modal-body .wedding-modal-bride p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin:0;
+}
+
+.modal-body .wedding-modal-bride h1{
+	font-family: var(--font-handwriting-family);
+	font-size: 36px;
+	color: var(--font-third-color);
+}
+
+.modal-body .wedding-modal-guest{
+	text-align: center;
+}
+
+.modal-body .wedding-modal-guest p{
+	font-family: var(--font-serif-family);
+	font-size: 14px;
+	color: var(--font-second-color);
+	margin:0;
+}
+
+.modal-body .wedding-modal-guest .wgky{
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
+.modal-body .wedding-modal-guest h1{
+	font-family: var(--font-serif-family);
+	font-size: 16px;
+	color: var(--font-third-color);
+}
+/*--------------------------------------------------------------
+# overlay
+--------------------------------------------------------------*/
+.please-wait {
+	font-family: 'Allura', cursive;
+	color:var(--font-third-color);
+}
+/*--------------------------------------------------------------
+# sweetalert
+--------------------------------------------------------------*/
+.swal-overlay {
+  	background-color: var(--btn-first-color-rgb);
+}
+
+.swal-text {
+	text-align: center;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.swal-button {
+	background-color: var(--btn-first-color);
+	color: var(--btn-first-color-font);
+}
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+.page-footer{
+	background-color: var(--bg-second-color);
+	text-align: center;
+}
+
+.page-footer svg{
+	max-height: 20px;
+	margin-top: 10px;
+}
+
+.page-footer .color-svg{
+	fill: var(--font-third-color);
+}
+
+.page-footer i{
+	font-size: 32px;
+}
+
+.page-footer .container .list-inline .list-inline-item a{
+	color: var(--font-third-color);
+}
+
+.page-footer .footer-copyright{
+	font-size: 14px;
+	font-family: var(--font-serif-family);
+	color: var(--font-second-color);
+}
+
+.page-footer .footer-copyright a{
+	font-size: 14px;
+	color: var(--font-third-color);
+	font-family: var(--font-serif-family);
+	text-decoration:none;
+}

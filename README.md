@@ -154,37 +154,34 @@ undangan kami nikah
         
 # SVG
 
-<img width="700px" src="https://undangankaminikah.github.io/ukn-v1.0/img/Frame 3.jpg">
+<img width="800px" src="https://undangankaminikah.github.io/ukn-v1.0/img/svg.jpg">
 
 1. SVG 1
 
-        <svg viewBox="0 0 414 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" shape-rendering="auto">
-                <path d="M414 1.00357C339.8 6.21786 329.712 30.1071 237.539 30.1071C134.039 30.1071 134.039 0 30.539 0C19.2122 0 9.12094 0.360714 0 1.00357V49.7893H414V1.00357Z" fill-opacity="0.3"/>
-                <path d="M0 8.47142C14.0566 6.43927 30.5843 5.16785 51.239 5.16785C154.739 5.16785 154.739 37.0393 258.239 37.0393C341.081 37.0393 357.625 16.625 414 8.46785V49.7893H0V8.47142Z" fill-opacity="0.5"/>
-                <path d="M414 18.275C348.989 22.7357 335.589 37.3464 247.889 37.3464C144.389 37.3464 144.389 16.9893 40.889 16.9893C25.089 16.9929 11.7117 17.4714 0 18.275V49.7893H414V18.275Z"/>
-        </svg>
+        <svg class="waves" width="100%" height="40px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M1280 3.4C1050.59 18 1019.4 84.89 734.42 84.89c-320 0-320-84.3-640-84.3C59.4.59 28.2 1.6 0 3.4V140h1280z" fill-opacity=".3"/><path d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V140H0z" fill-opacity=".5"/><path d="M1280 51.76c-201 12.49-242.43 53.4-513.58 53.4-320 0-320-57-640-57-48.85.01-90.21 1.35-126.42 3.6V140h1280z"/></g></svg>
 
 
 2. SVG 2
 
-        <svg viewBox="0 0 414 81" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" shape-rendering="auto">
-                <path d="M234.586 57.8286C105.188 69.9886 0 0 0 0V80H414V0C414 0 363.984 45.6686 234.586 57.8286Z" fill-opacity="0.3"/>
-                <path d="M179.977 68.4229C308.369 80 414 8 414 8V80H0V0C0 0 51.5883 56.8457 179.977 68.4229Z" fill-opacity="0.5"/>
-                <path d="M207 80C321.322 80 414 0 414 0.571429V80.5714H0V0C0 0 92.6778 80 207 80Z" />
-        </svg>
+        <svg class="waves" width="100%" height="44px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z" fill-opacity=".3"/><path d="M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z" fill-opacity=".5"/><path d="M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z"/></g></svg>
 
 3. SVG 3
 
-        <svg viewBox="0 0 414 90" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" shape-rendering="auto">
-                <path d="M0 90L207 45L414 90V0L207 45L0 0V90Z" fill-opacity="0.5"/>
-                <path d="M0 90H414L207 45L0 90Z"/>
-        </svg>
+        <svg class="waves" width="100%" height="65px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M1280 0l-262.1 116.26a73.29 73.29 0 0 1-39.09 6L0 0v140h1280z"/></g></svg>
 
 4. SVG 4
 
-        <svg viewBox="0 0 414 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" shape-rendering="auto">
-                <path d="M-1.52588e-05 0L84.7729 66.4343C88.7299 69.6024 93.1035 70.7884 97.4161 69.8629L414 0V80H-1.52588e-05V0Z" />
-        </svg>
+        <svg class="waves" width="100%" height="34px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M978.81 122.25L0 0h1280l-262.1 116.26a73.29 73.29 0 0 1-39.09 5.99z"/></g></svg>
+        
+5. SVG 5
+
+        <svg class="waves" width="100%" height="38px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M0 140l640-70 640 70V0L640 70 0 0v140z" fill-opacity=".5"/><path d="M0 140h1280L640 70 0 140z"/></g></svg>
+
+6. SVG 6
+
+        <svg class="waves" width="100%" height="52px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M1280 140V0S993.46 140 640 139 0 0 0 0v140z"/></g></svg>
+        
+        
 
 # Logo Payment
         

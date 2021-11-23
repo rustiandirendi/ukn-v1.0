@@ -154,6 +154,8 @@ undangan kami nikah
         
 # Logo Payment
 
+<img width="700px" src="https://undangankaminikah.github.io/ukn-v1.0/img/Frame 3.jpg">
+
 1. SVG 1
 
         <svg viewBox="0 0 414 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" shape-rendering="auto">

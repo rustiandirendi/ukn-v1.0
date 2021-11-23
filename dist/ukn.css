@@ -1122,6 +1122,7 @@
 --------------------------------------------------------------*/
 .quotes{
 	background-color: var(--bg-first-color);
+	text-align: center;
 }
 
 .quotes p{

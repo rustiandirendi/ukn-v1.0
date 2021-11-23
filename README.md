@@ -1,6 +1,12 @@
 # ukn-v1.0
 undangan kami nikah 
 
+# Style & Javascript
+
+        @import url(https://undangankaminikah.github.io/ukn-v1.0/dist/ukn.css);
+        
+        <script src="https://undangankaminikah.github.io/ukn-v1.0/dist/ukn.js"></script>
+
 # Logo Payment
         
 <img width="100px" src="https://undangankaminikah.github.io/ukn-v1.0/bank/bca.png">

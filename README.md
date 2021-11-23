@@ -3,7 +3,11 @@ undangan kami nikah
 
 # Style & Javascript
 
+1. CSS (import in namapengantin.css)
+
         @import url(https://undangankaminikah.github.io/ukn-v1.0/dist/ukn.css);
+        
+2. JS
         
         <script src="https://undangankaminikah.github.io/ukn-v1.0/dist/ukn.js"></script>
 

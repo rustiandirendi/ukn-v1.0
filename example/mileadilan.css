@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://undangankaminikah.github.io/ukn-v1.0/dist/ukn.css);
+
+:root{
+	--bg-first-color:#74583E;
+	--bg-second-color:#ffffff;
+	--font-serif-family:'Montserrat', sans-serif;
+	--font-handwriting-family: 'Allura', cursive;
+	--font-first-color:#ffffff;
+	--font-second-color:#454545;
+	--font-third-color:#74583E;
+	--btn-first-color:#74583E;
+	--btn-first-color-font:#ffffff;
+	--btn-first-hover-color:#7b5837;
+	--btn-first-color-rgb:rgba(123, 86, 55, 0.5);
+	--btn-second-color:#ffffff;
+	--btn-second-color-font:#74583E;
+	--btn-second-hover-color:#fcfcfc;
+	--btn-second-color-rgb:rgba(252, 252, 252, 0.5);
+}
+
+.modal-content{
+	background: linear-gradient(
+				  rgba(255, 255, 255, 0.7),
+				  rgba(255, 255, 255, 0.7)
+				),url(../img/gall1.jpg);
+	background-size: cover;
+	background-position: center; 
+}

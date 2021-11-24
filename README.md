@@ -181,7 +181,13 @@ undangan kami nikah
 
         <svg class="waves" width="100%" height="52px" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M1280 140V0S993.46 140 640 139 0 0 0 0v140z"/></g></svg>
         
-        
+css waves
+
+        .posisi .waves{
+                position:relative;
+                margin-bottom:-1px; /*Fix for safari gap*/
+                fill: var(--bg-first-color);
+        }
 
 # Logo Payment
         
